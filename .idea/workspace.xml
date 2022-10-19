@@ -10,9 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3b3bd8c-0067-4463-af8d-5a9bbc42d793" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/imooc_reader_Web_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/mapper/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/mapper/TestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +27,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -76,7 +80,55 @@
       <recent name="com.imooc.reader.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestServiceTest.batchImport">
+  <component name="RunManager" selected="JUnit.MyBatisPlusTest.testSelect">
+    <configuration name="MyBatisPlusTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imooc-reader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.reader" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.reader.MyBatisPlusTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusTest.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imooc-reader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.reader" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.reader.MyBatisPlusTest" />
+      <option name="METHOD_NAME" value="testSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imooc-reader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.reader" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.reader.MyBatisPlusTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestServiceTest.batchImport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="imooc-reader" />
       <extension name="coverage">
@@ -185,6 +237,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisPlusTest.testSelect" />
+        <item itemvalue="JUnit.MyBatisPlusTest.testUpdate" />
+        <item itemvalue="JUnit.MyBatisPlusTest.testInsert" />
         <item itemvalue="JUnit.TestServiceTest.batchImport" />
       </list>
     </recent_temporary>
@@ -199,7 +254,7 @@
       <updated>1665992839744</updated>
       <workItem from="1665992841718" duration="282000" />
       <workItem from="1665993153287" duration="6121000" />
-      <workItem from="1666061330034" duration="10680000" />
+      <workItem from="1666061330034" duration="17502000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665993750574</created>
@@ -215,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665994884171</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1666088692891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666088692891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
