@@ -5,5 +5,6 @@ import com.imooc.reader.entity.Category;
 import java.util.List;
 
 public interface CategoryService {
-    public List<Category> 
+    public List<Category> selectAll();
+
 }

@@ -9,7 +9,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3b3bd8c-0067-4463-af8d-5a9bbc42d793" name="Changes" comment="Initial commit" />
+    <list default="true" id="f3b3bd8c-0067-4463-af8d-5a9bbc42d793" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/imooc_reader_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/imooc_reader_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/Controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/mapper/TestMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/TestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/mappers/test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/ftl/test.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/freemarker-2.3.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/jackson-annotations-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/jackson-core-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/jackson-databind-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/spring-aop-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/spring-beans-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/spring-context-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/spring-context-support-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/spring-core-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/spring-expression-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/spring-jcl-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/spring-web-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/lib/spring-webmvc-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +50,9 @@
       <list>
         <option value="HTML File" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -38,6 +69,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
   <component name="ProjectId" id="2GFmit5OnZ9ugQ5mqvzr1ewnhfz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -45,34 +79,79 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/idea/imooc-reader/src/main/webapp&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.XML&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;634b46fc232cac9df1a62b363f6b9169&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/idea/imooc-reader/src/main/webapp/images",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "spring.configuration.checksum": "634b46fc232cac9df1a62b363f6b9169",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.imooc.reader.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\imooc-reader\src\main\webapp\images" />
+      <recent name="D:\idea\imooc-reader\src\main\webapp" />
+      <recent name="D:\idea\imooc-reader\src\main\resources" />
+      <recent name="D:\idea\imooc-reader\src\main\webapp\WEB-INF\ftl" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\imooc-reader\src\main" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.imooc.reader.service.impl" />
       <recent name="com.imooc.reader.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisPlusTest.testSelect">
+  <component name="RunManager" selected="Tomcat Server.start_tomcat">
+    <configuration name="BookServiceImplTest.paging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imooc-reader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.reader.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.reader.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.reader.service.impl.BookServiceImplTest" />
+      <option name="METHOD_NAME" value="paging" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryServiceImplTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imooc-reader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.reader.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.reader.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.reader.service.impl.CategoryServiceImplTest" />
+      <option name="METHOD_NAME" value="selectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyBatisPlusTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="imooc-reader" />
       <extension name="coverage">
@@ -116,22 +195,6 @@
       <option name="PACKAGE_NAME" value="com.imooc.reader" />
       <option name="MAIN_CLASS_NAME" value="com.imooc.reader.MyBatisPlusTest" />
       <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestServiceTest.batchImport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="imooc-reader" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.reader.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.imooc.reader.service" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.reader.service.TestServiceTest" />
-      <option name="METHOD_NAME" value="batchImport" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -229,10 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookServiceImplTest.paging" />
+        <item itemvalue="JUnit.CategoryServiceImplTest.selectAll" />
         <item itemvalue="JUnit.MyBatisPlusTest.testSelect" />
         <item itemvalue="JUnit.MyBatisPlusTest.testUpdate" />
         <item itemvalue="JUnit.MyBatisPlusTest.testInsert" />
-        <item itemvalue="JUnit.TestServiceTest.batchImport" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +311,9 @@
       <workItem from="1665992841718" duration="282000" />
       <workItem from="1665993153287" duration="6121000" />
       <workItem from="1666061330034" duration="17502000" />
-      <workItem from="1666142303154" duration="656000" />
+      <workItem from="1666142303154" duration="8095000" />
+      <workItem from="1666179890398" duration="2185000" />
+      <workItem from="1666182150362" duration="6235000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665993750574</created>
@@ -277,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666146623214</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1666146662316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666146662316</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -11,15 +11,14 @@ import java.util.Map;
 @Controller
 public class TestController {
     @GetMapping("/test/t1")
-    public ModelAndView test1() {
+    public ModelAndView test1(){
         return new ModelAndView("/test");
     }
-
     @GetMapping("/test/t2")
     @ResponseBody
-    public Map test2() {
+    public Map test2(){
         Map result = new HashMap();
-        result.put("test", "haha");
+        result.put("test", "测试文本");
         return result;
     }
 }
