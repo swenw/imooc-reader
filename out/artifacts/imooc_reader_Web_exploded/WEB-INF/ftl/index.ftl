@@ -67,6 +67,7 @@
         //isReset参数设置为true,代表从第一页开始查询,否则按nextPage查询后续页
         function loadMore(isReset){
             if(isReset == true){
+                // 在多条件筛选的时候，需要进行前端的重置操作
                 $("#bookList").html("");
                 $("#nextPage").val(1);
             }
@@ -87,7 +88,7 @@
                         // var html = "<li>" + book.bookName + "</li>";
                         //将数据结合tpl模板,生成html
                         var html = template("tpl" , book);
-                        console.info(html);
+                        // console.info(html);
                         $("#bookList").append(html);
                     }
                     //显示星型评价组件
@@ -139,6 +140,7 @@
                 $(".category").removeClass("highlight");
                 $(".category").addClass("text-black-50");
                 $(this).addClass("highlight");
+                // 对应于data-category，将对应的隐藏域进行赋值
                 var categoryId = $(this).data("category");
                 $("#categoryId").val(categoryId);
                 loadMore(true);
@@ -148,6 +150,7 @@
                 $(".order").removeClass("highlight");
                 $(".order").addClass("text-black-50");
                 $(this).addClass("highlight");
+                // 对应于data-order
                 var order = $(this).data("order");
                 $("#order").val(order);
                 loadMore(true);
@@ -202,8 +205,11 @@
         </div>
     </div>
     <div class="d-none">
+        <!--隐藏页默认设置为第二页-->
         <input type="hidden" id="nextPage" value="2">
+        <#--categoryId=-1表示默认查询所有数据-->
         <input type="hidden" id="categoryId" value="-1">
+        <#--默认为按热度进行排序-->
         <input type="hidden" id="order" value="quantity">
     </div>
 

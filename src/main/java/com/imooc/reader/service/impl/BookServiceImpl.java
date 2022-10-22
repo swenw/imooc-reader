@@ -17,18 +17,45 @@ import javax.annotation.Resource;
 public class BookServiceImpl implements BookService {
     @Resource
     private BookMapper bookMapper;
+
+
     /**
      * 分页查询图书
      *
-     * @param page 页号
-     * @param rows 每页记录数
+     * @param categoryId 图书分类编号
+     * @param order
+     * @param page       页号
+     * @param rows       每页记录数
      * @return 分页对象
+     * @oaram order 排序规则
      */
     @Override
-    public IPage<Book> paging(Integer page, Integer rows) {
-        Page<Book> p = new Page<Book>(page, rows);
-        QueryWrapper<Book> queryWrapper = new QueryWrapper<Book>();
-        IPage<Book> pageObject = bookMapper.selectPage(p, queryWrapper);
+    public IPage<Book> paging(Long categoryId, String order, Integer page, Integer rows) {
+        Page<Book> p = new Page<>(page, rows);
+        QueryWrapper<Book> queryWrapper = new QueryWrapper<>();
+        if (categoryId != null && categoryId != -1) {
+            queryWrapper.eq("category_id", categoryId);
+        }
+        if (order != null) {
+            if (order.equals("quantity")) {
+                queryWrapper.orderByDesc("evaluation_quantity");
+            }else if(order.equals("score")) {
+                queryWrapper.orderByDesc("evaluation_score");
+            }
+        }
+        Page<Book> pageObject = bookMapper.selectPage(p, queryWrapper);
         return pageObject;
+    }
+
+    /**
+     * 根据图书编号查询图书对象
+     *
+     * @param bookId 图书编号
+     * @return 图书对象
+     */
+    @Override
+    public Book selectById(Long bookId) {
+        Book book = bookMapper.selectById(bookId);
+        return book;
     }
 }

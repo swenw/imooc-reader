@@ -21,7 +21,7 @@ public class BookServiceImplTest {
 
     @Test
     public void paging() {
-        IPage<Book> paging = bookService.paging(1, 10);
+        IPage<Book> paging = bookService.paging(2l, "quantity", 1, 10);
         List<Book> records = paging.getRecords();
         for (Book book: records) {
             System.out.println(book.getBookId() + " " + book.getBookName());

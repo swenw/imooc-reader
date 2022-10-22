@@ -51,6 +51,7 @@
         })
 
         $(function () {
+            // 当前会员要么点过想看，要么点过看过
             <#if memberReadState ??>
             //重选阅读状态
             $("*[data-read-state='${memberReadState.readState}']").addClass("highlight");
