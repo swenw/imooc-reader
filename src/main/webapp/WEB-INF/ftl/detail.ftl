@@ -100,7 +100,7 @@
                     memberId : ${loginMember.memberId},
                     content : content
                 },function(json){
-                   if(json.code = "0"){
+                   if(json.code == "0"){
                        window.location.reload();//刷新当前页面
                    }
                 },"json")

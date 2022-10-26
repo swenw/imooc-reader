@@ -1,5 +1,6 @@
 package com.imooc.reader.controller;
 
+import com.imooc.reader.entity.Evaluation;
 import com.imooc.reader.entity.Member;
 import com.imooc.reader.service.BussinessException;
 import com.imooc.reader.service.MemberService;
@@ -80,12 +81,50 @@ public class MemberController {
     }
 
     @PostMapping("/update_read_state")
+    @ResponseBody
     public Map updateReadState(Long memberId, Long bookId, Integer readState) {
         Map result = new HashMap();
         try {
             memberService.updateMemberReadState(memberId, bookId, readState);
             result.put("code", "0");
             result.put("msg", "success");
+        } catch (BussinessException ex) {
+            ex.printStackTrace();
+            result.put("code", ex.getCode());
+            result.put("msg", ex.getMsg());
+        }
+        return result;
+    }
+
+    @PostMapping("/evaluate")
+    @ResponseBody
+    public Map evaluate(Long memberId, Long bookId, Integer score, String content) {
+        HashMap result = new HashMap();
+        try {
+            // 是否需要返回值主要取决于开发者在后续处理中是否需要eva对象的展示
+            Evaluation eva = memberService.evaluate(memberId, bookId, score, content);
+            result.put("code", "0");
+            result.put("msg", "success");
+            result.put("evaluation", eva);
+        } catch (BussinessException ex) {
+            ex.printStackTrace();
+            result.put("code", ex.getCode());
+            result.put("msg", ex.getMsg());
+        }
+        return result;
+    }
+
+    @PostMapping("/enjoy")
+    @ResponseBody
+    // 每24小时只能点赞一次
+    public Map evaluate(Long evaluationId) {
+        HashMap result = new HashMap();
+        try {
+            // 是否需要返回值主要取决于开发者在后续处理中是否需要eva对象的展示
+            Evaluation eva = memberService.enjoy(evaluationId);
+            result.put("code", "0");
+            result.put("msg", "success");
+            result.put("evaluation", eva);
         } catch (BussinessException ex) {
             ex.printStackTrace();
             result.put("code", ex.getCode());
