@@ -91,9 +91,11 @@
             $("#btnSubmit").click(function(){
                 var score = $("#score").raty("score");//获取评分
                 var content = $("#content").val();
-                if(score == 0 || $.trim(content) == ""){
+                if(typeof score === 'undefined' || $.trim(content) == ""){
                     return;
                 }
+                console.log(score);
+                console.log(content);
                 $.post("/evaluate" , {
                     score : score,
                     bookId : ${book.bookId},
@@ -108,6 +110,7 @@
             //评论点赞
             $("*[data-evaluation-id]").click(function(){
                 var evaluationId = $(this).data("evaluation-id");
+                console.log(evaluationId);
                 $.post("/enjoy",{evaluationId:evaluationId},function(json){
                     if(json.code == "0"){
                        $("*[data-evaluation-id='" + evaluationId + "'] span").text(json.evaluation.enjoy);
@@ -191,7 +194,6 @@
                 <span class="pt-1 small text-black-50 mr-2">${evaluation.createTime?string('MM-dd')}</span>
                 <span class="mr-2 small pt-1">${evaluation.member.nickname}</span>
                 <span class="stars mr-2" data-score="${evaluation.score}"></span>
-
                 <button type="button" data-evaluation-id="${evaluation.evaluationId}"
                         class="btn btn-success btn-sm text-white float-right" style="margin-top: -3px;">
                     <img style="width: 24px;margin-top: -5px;" class="mr-1"

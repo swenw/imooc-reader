@@ -1,7 +1,10 @@
 package com.imooc.reader.controller;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.imooc.reader.entity.Book;
 import com.imooc.reader.entity.Evaluation;
 import com.imooc.reader.entity.Member;
+import com.imooc.reader.service.BookService;
 import com.imooc.reader.service.BussinessException;
 import com.imooc.reader.service.MemberService;
 import org.springframework.stereotype.Controller;
@@ -20,6 +23,8 @@ import java.util.Map;
 public class MemberController {
     @Resource
     private MemberService memberService;
+    @Resource
+    private BookService bookService;
     @GetMapping("/register.html")
     public ModelAndView showRegister() {
         return new ModelAndView("/register");
