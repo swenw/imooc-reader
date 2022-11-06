@@ -67,6 +67,7 @@ public class MemberController {
         String verifyCode = (String) httpSession.getAttribute("kaptchaVerifyCode");
         // 忽略大小写对比
         Map result = new HashMap();
+        //如果前端没有输入验证码or当前Session中没有验证码or输入的验证码和后端的验证码，在忽略大小写后不一致
         if (vc == null || verifyCode == null || !vc.equalsIgnoreCase(verifyCode)) {
             result.put("code", "VC01");
             result.put("msg", "验证码错误");

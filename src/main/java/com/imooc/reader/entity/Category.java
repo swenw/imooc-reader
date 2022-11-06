@@ -2,8 +2,10 @@ package com.imooc.reader.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 
 //图书分类实体
+@TableName("category")
 public class Category {
     @TableId(type = IdType.AUTO)
     private Long categoryId;

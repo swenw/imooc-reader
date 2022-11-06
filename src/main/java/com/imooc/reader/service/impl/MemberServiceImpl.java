@@ -40,6 +40,7 @@ public class MemberServiceImpl implements MemberService {
      */
     @Override
     public Member createMember(String username, String password, String nickname) {
+        // 检查是否有相同用户名的用户，没有才新建用户
         QueryWrapper<Member> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("username", username);
         List<Member> memberList = memberMapper.selectList(queryWrapper);
@@ -49,7 +50,9 @@ public class MemberServiceImpl implements MemberService {
         Member member = new Member();
         member.setUsername(username);
         member.setNickname(nickname);
+        // 保证盐值是4位Int数
         int salt = new Random().nextInt(1000) + 1000;
+        // 通过MD5与盐值进行加密
         String md5 = MD5Utils.md5Digest(password, salt);
         member.setPassword(md5);
         member.setSalt(salt);

@@ -10,21 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3b3bd8c-0067-4463-af8d-5a9bbc42d793" name="Changes" comment="lesson 6">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/imooc_reader_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/imooc_reader_Web_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/controller/MemberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/mapper/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/mapper/BookMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/EvaluationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/EvaluationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/MemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/impl/EvaluationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/impl/EvaluationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/impl/MemberReadStateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/impl/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/com/imooc/reader/service/impl/MemberServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/mappers/book.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/classes/mappers/book.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/ftl/detail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/ftl/detail.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/ftl/test.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/ftl/test.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/ftl/management/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/imooc_reader_Web_exploded/WEB-INF/ftl/management/index.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/controller/MemberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/controller/management/MBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/controller/management/MBookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/entity/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/EvaluationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/EvaluationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/impl/BookServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/impl/EvaluationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/impl/EvaluationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/impl/MemberReadStateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/service/impl/MemberServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/task/ComputeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/task/ComputeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/detail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/detail.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/reader/utils/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/reader/utils/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/management/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/management/index.ftl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,25 +74,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/idea/imooc-reader/src/main/webapp/WEB-INF/ftl/management",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
-    "spring.configuration.checksum": "634b46fc232cac9df1a62b363f6b9169",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/idea/imooc-reader/src/main/webapp/WEB-INF/ftl/management&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;634b46fc232cac9df1a62b363f6b9169&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.imooc.reader.service.impl" />
@@ -311,7 +320,9 @@
       <workItem from="1666182150362" duration="6235000" />
       <workItem from="1666258003314" duration="265071000" />
       <workItem from="1666700860250" duration="5912000" />
-      <workItem from="1666945026749" duration="22330000" />
+      <workItem from="1666945026749" duration="28672000" />
+      <workItem from="1667265672566" duration="12000" />
+      <workItem from="1667567694003" duration="18403000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665993750574</created>
@@ -376,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666957845502</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lesson 6">
+      <created>1667124492831</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667124492831</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -194,7 +194,6 @@
                 <span class="pt-1 small text-black-50 mr-2">${evaluation.createTime?string('MM-dd')}</span>
                 <span class="mr-2 small pt-1">${evaluation.member.nickname}</span>
                 <span class="stars mr-2" data-score="${evaluation.score}"></span>
-                <span>${evaluation.evaluationId}</span>
                 <button type="button" data-evaluation-id="${evaluation.evaluationId}"
                         class="btn btn-success btn-sm text-white float-right" style="margin-top: -3px;">
                     <img style="width: 24px;margin-top: -5px;" class="mr-1"

@@ -194,8 +194,6 @@
                 <a style="cursor: pointer" data-category="${category.categoryId}" class="text-black-50 font-weight-bold category">${category.categoryName}</a>
                 <#if category_has_next>|</#if>
                 </#list>
-
-
         </div>
 
         <div class="col-8 mt-2">

@@ -53,6 +53,7 @@ public class MBookController {
     public Map createBook(Book book) {
         Map result = new HashMap();
         try {
+            // 注意前端传来的Book对象有些值是缺失的，需自己补全
             book.setEvaluationQuantity(0);
             book.setEvaluationScore(0f);
             Document doc = Jsoup.parse(book.getDescription()); //解析图书详情

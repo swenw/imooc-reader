@@ -16,6 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import java.util.Date;
 import java.util.List;
 
 @Service("evaluationService")
@@ -42,6 +43,7 @@ public class EvaluationServiceImpl implements EvaluationService {
         evaluationQueryWrapper.eq("state", "enable");
         evaluationQueryWrapper.orderByDesc("create_time");
         List<Evaluation> evaluationList = evaluationMapper.selectList(evaluationQueryWrapper);
+        // 将Member对象加入Evaluation对象中
         for (Evaluation eva : evaluationList) {
             Member member = memberMapper.selectById(eva.getMemberId());
             eva.setMember(member);
@@ -58,10 +60,37 @@ public class EvaluationServiceImpl implements EvaluationService {
      * @return
      */
     @Override
-    public IPage<Evaluation> paging(Integer page, Integer rows) {
+    @ResponseBody
+    public List<Evaluation> paging(Integer page, Integer rows) {
         Page<Evaluation> p = new Page<>(page, rows);
         QueryWrapper<Evaluation> evaluationQueryWrapper = new QueryWrapper<>();
         Page<Evaluation> evaluationPage = evaluationMapper.selectPage(p, evaluationQueryWrapper);
-        return evaluationPage;
+        List<Evaluation> records = evaluationPage.getRecords();
+        for (Evaluation r : records) {
+            Book book = bookMapper.selectById(r.getBookId());
+            r.setBook(book);
+            Member member = memberMapper.selectById(r.getMemberId());
+            r.setMember(member);
+        }
+        return records;
+    }
+
+    /**
+     * 对非法的评论信息进行禁用
+     *
+     * @param evaluationId 评论id号
+     * @param value        禁用原因
+     * @return 当前评论
+     */
+    @Override
+    @ResponseBody
+    @Transactional
+    public Evaluation disable(Long evaluationId, String value) {
+        Evaluation evaluation = evaluationMapper.selectById(evaluationId);
+        evaluation.setState("disable");
+        evaluation.setDisableReason(value);
+        evaluation.setDisableTime(new Date());
+        evaluationMapper.updateById(evaluation);
+        return evaluation;
     }
 }

@@ -15,7 +15,7 @@ public class ComputeTask {
     @Resource
     private BookService bookService;
     //任务调度，每分钟调度一次
-    @Scheduled(cron = "* * 0 * * ?")
+    @Scheduled(cron = "0 0 0 * * ?") // 每天的0点执行任务
     public void updateEvaluation() {
         bookService.updateEvaluation();
         System.out.println(new Date() + " 已更新所有评分");

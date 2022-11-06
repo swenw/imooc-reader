@@ -16,8 +16,16 @@ public interface EvaluationService {
     /**
      * 对评论信息进行分页展示
      * @param page
-     * @param rows
+     * @param limit
      * @return
      */
-    public IPage<Evaluation> paging(Integer page, Integer rows);
+    public List<Evaluation> paging(Integer page, Integer limit);
+
+    /**
+     * 对非法的评论信息进行禁用
+     * @param evaluationId 评论id号
+     * @param value 禁用原因
+     * @return 当前评论
+     */
+    public Evaluation disable(Long evaluationId, String value);
 }
